@@ -246,20 +246,24 @@
           </div>
           <h2>CSS</h2>
           <div class="progress bg-secondary mb-3">
-            <div class="progress-bar" style="width:50%">50%</div>
+            <div class="progress-bar bg-danger" style="width:70%">70%</div>
           </div>
           <h2>Javascript</h2>
           <div class="progress bg-secondary mb-3">
-            <div class="progress-bar" style="width:50%">50%</div>
+            <div class="progress-bar bg-warning" style="width:90%">90%</div>
+          </div>
+          <h2>Bootstrap</h2>
+          <div class="progress bg-secondary mb-3">
+            <div class="progress-bar bg-info" style="width:90%">90%</div>
           </div>
         </div>
       </div>
-
+    </div>
     </div>
   </section>
   <!-- //progress -->
   <!-- contact -->
-  <section class="p-5">
+  <section class="p-5 bg-light">
     <div class="container-fluid">
       <div class="row">
         <div class="col text-center mb-3">
@@ -267,9 +271,47 @@
           <p class="text-secondary lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque</p>
         </div>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-10 col-md-8 col-lg-6">
+          <div class="text-center text-secondary">
+            <h2>질문있어요?</h2>
+            <p>여기클릭</p>
+          </div>
+          <form class="text-muted">
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingname" placeholder="이름">
+              <label for="floatingname">이름</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingEmail" placeholder="이메일주소">
+              <label for="floatingEmail">이메일주소</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="floatingText" placeholder="메시지작성" style="height:200px"></textarea>
+              <label for="floatingText">메시지작성</label>
+            </div>
+            <button class="btn btn-outline-warning btn-block col-12">전송</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
   <!-- //contact -->
+  <footer class="bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="text-white font-weight-light text-capitalize p-3">Pure Bootstrap project</h1>
+          <h3 class="text-light font-weight-light text-italic mb-3">끝</h3>
+          <div class="py-2"><a href="#">a</a></div>
+          <div class="py-2"><a href="#">b</a></div>
+          <div class="py-2"><a href="#">c</a></div>
+          <div class="py-2"><a href="#">d</a></div>
+          <p class="text-light py-4 m-0">&copy;Copyright 2018-Made by Mango</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
